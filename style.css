@@ -1,0 +1,49 @@
+/*
+Use https://bennettfeely.com/clippy for generating clip-paths automatically
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#stripes {
+	height: 100vh;
+	background: linear-gradient(150deg, #53f 15%, #05d5ff 70%, #a6ffcb 94%);
+	clip-path: polygon(100% 0, 100% 42%, 0 79%, 0 0);
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(12, 1fr);
+}
+
+
+h1 {
+	color: white;
+	position: absolute;
+	top: 20px;
+	margin: 20px;
+	font-size: 36px;
+}
+
+
+
+
+p {
+	color: white;
+	position: absolute;
+	top: 20px;
+	margin: 20px;
+	font-size: 16px;
+}
+
+
+img{
+		top: 62%;
+    float:right;
+    margin-left:60%;
+		position:  fixed;
+}
